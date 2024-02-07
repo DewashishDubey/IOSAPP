@@ -16,6 +16,7 @@
 		A16BBA0F2B73A8D3005A4F95 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16BBA0E2B73A8D3005A4F95 /* FirstScreen.swift */; };
 		A18AEE202B729DB500B7B632 /* AboutRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18AEE1F2B729DB500B7B632 /* AboutRestaurant.swift */; };
 		A18F2ED72B73BD6C0008999F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2ED62B73BD6C0008999F /* HomeView.swift */; };
+		A18F2ED92B73BDD40008999F /* locationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2ED82B73BDD40008999F /* locationManager.swift */; };
 		A1935DE62B71091700554D53 /* MyImagesDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1935DE42B71091700554D53 /* MyImagesDataModel.xcdatamodeld */; };
 		A1935DE82B71096400554D53 /* MyImagesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DE72B71096400554D53 /* MyImagesContainer.swift */; };
 		A1935DEA2B710A1400554D53 /* MyImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DE92B710A1400554D53 /* MyImage+Extension.swift */; };
@@ -24,7 +25,6 @@
 		A1935DF12B71120C00554D53 /* ImageFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DF02B71120C00554D53 /* ImageFormView.swift */; };
 		A1935DF32B7116BC00554D53 /* FormType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DF22B7116BC00554D53 /* FormType.swift */; };
 		A1935DF52B71181B00554D53 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DF42B71181B00554D53 /* FileManager+Extension.swift */; };
-		A19769BE2B733684000A6256 /* locationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19769BD2B733684000A6256 /* locationManager.swift */; };
 		A1F1E8342B732C880040621E /* viewAll in Resources */ = {isa = PBXBuildFile; fileRef = A1F1E82C2B732C880040621E /* viewAll */; };
 		A1F1E8352B732C880040621E /* upcomingTripsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E82D2B732C880040621E /* upcomingTripsData.swift */; };
 		A1F1E8362B732C880040621E /* IntroductionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E82E2B732C880040621E /* IntroductionData.swift */; };
@@ -65,6 +65,7 @@
 		A16BBA0E2B73A8D3005A4F95 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		A18AEE1F2B729DB500B7B632 /* AboutRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutRestaurant.swift; sourceTree = "<group>"; };
 		A18F2ED62B73BD6C0008999F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A18F2ED82B73BDD40008999F /* locationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationManager.swift; sourceTree = "<group>"; };
 		A1935DE52B71091700554D53 /* MyImagesDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyImagesDataModel.xcdatamodel; sourceTree = "<group>"; };
 		A1935DE72B71096400554D53 /* MyImagesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagesContainer.swift; sourceTree = "<group>"; };
 		A1935DE92B710A1400554D53 /* MyImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyImage+Extension.swift"; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		A1935DF02B71120C00554D53 /* ImageFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFormView.swift; sourceTree = "<group>"; };
 		A1935DF22B7116BC00554D53 /* FormType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormType.swift; sourceTree = "<group>"; };
 		A1935DF42B71181B00554D53 /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
-		A19769BD2B733684000A6256 /* locationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = locationManager.swift; path = ../../locationDemo/locationDemo/locationManager.swift; sourceTree = "<group>"; };
 		A1F1E82C2B732C880040621E /* viewAll */ = {isa = PBXFileReference; lastKnownFileType = folder; name = viewAll; path = ../../LocalEatz/LocalEatz/viewAll; sourceTree = "<group>"; };
 		A1F1E82D2B732C880040621E /* upcomingTripsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = upcomingTripsData.swift; path = ../../LocalEatz/LocalEatz/Model/upcomingTripsData.swift; sourceTree = "<group>"; };
 		A1F1E82E2B732C880040621E /* IntroductionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroductionData.swift; path = ../../LocalEatz/LocalEatz/Model/IntroductionData.swift; sourceTree = "<group>"; };
@@ -133,7 +133,6 @@
 		A1380D7D2B71088E0069B6A5 /* MyImages */ = {
 			isa = PBXGroup;
 			children = (
-				A19769BD2B733684000A6256 /* locationManager.swift */,
 				A1F1E84C2B732D2F0040621E /* AddFoodie.swift */,
 				A1F1E8502B732D2F0040621E /* AddRestaurant.swift */,
 				A1F1E8472B732D2F0040621E /* EditProfile.swift */,
@@ -174,6 +173,7 @@
 				A18AEE1F2B729DB500B7B632 /* AboutRestaurant.swift */,
 				A16BBA0E2B73A8D3005A4F95 /* FirstScreen.swift */,
 				A18F2ED62B73BD6C0008999F /* HomeView.swift */,
+				A18F2ED82B73BDD40008999F /* locationManager.swift */,
 			);
 			path = MyImages;
 			sourceTree = "<group>";
@@ -286,9 +286,9 @@
 				A1F1E83D2B732CCB0040621E /* RestaurantRecommendation.swift in Sources */,
 				A1F1E8352B732C880040621E /* upcomingTripsData.swift in Sources */,
 				A1F1E85D2B732D2F0040621E /* PlannedTrips.swift in Sources */,
-				A19769BE2B733684000A6256 /* locationManager.swift in Sources */,
 				A1F1E8452B732CDB0040621E /* ReviewView.swift in Sources */,
 				A14DE6682B7263150098C0BF /* AddData.swift in Sources */,
+				A18F2ED92B73BDD40008999F /* locationManager.swift in Sources */,
 				A1935DF52B71181B00554D53 /* FileManager+Extension.swift in Sources */,
 				A1F1E8552B732D2F0040621E /* EditProfile.swift in Sources */,
 				A18AEE202B729DB500B7B632 /* AboutRestaurant.swift in Sources */,
