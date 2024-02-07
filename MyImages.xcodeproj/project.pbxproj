@@ -23,6 +23,16 @@
 		A18F2EE12B73BF730008999F /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EE02B73BF730008999F /* ItineraryView.swift */; };
 		A18F2EE32B73BFA20008999F /*  ItineraryView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EE22B73BFA20008999F /*  ItineraryView2.swift */; };
 		A18F2EE72B73C0080008999F /* login_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EE62B73C0080008999F /* login_page.swift */; };
+		A18F2EE92B73C04E0008999F /*  MyFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EE82B73C04E0008999F /*  MyFriends.swift */; };
+		A18F2EEB2B73C0740008999F /*  MyReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EEA2B73C0740008999F /*  MyReviews.swift */; };
+		A18F2EED2B73C0910008999F /* PlacesVisited.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EEC2B73C0910008999F /* PlacesVisited.swift */; };
+		A18F2EEF2B73C0B20008999F /* PlannedTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EEE2B73C0B20008999F /* PlannedTrips.swift */; };
+		A18F2EF12B73C0D30008999F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EF02B73C0D30008999F /* ProfileView.swift */; };
+		A18F2EF32B73C0F30008999F /* signup_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EF22B73C0F30008999F /* signup_page.swift */; };
+		A18F2EF52B73C1150008999F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EF42B73C1150008999F /* AboutView.swift */; };
+		A18F2EF72B73C13B0008999F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EF62B73C13B0008999F /* MapView.swift */; };
+		A18F2EF92B73C1520008999F /* ReviewSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EF82B73C1520008999F /* ReviewSubView.swift */; };
+		A18F2EFB2B73C17C0008999F /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2EFA2B73C17C0008999F /* ReviewView.swift */; };
 		A1935DE62B71091700554D53 /* MyImagesDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1935DE42B71091700554D53 /* MyImagesDataModel.xcdatamodeld */; };
 		A1935DE82B71096400554D53 /* MyImagesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DE72B71096400554D53 /* MyImagesContainer.swift */; };
 		A1935DEA2B710A1400554D53 /* MyImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DE92B710A1400554D53 /* MyImage+Extension.swift */; };
@@ -40,17 +50,7 @@
 		A1F1E83A2B732C880040621E /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E8322B732C880040621E /* RestaurantData.swift */; };
 		A1F1E83B2B732C880040621E /* localDelicaciesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E8332B732C880040621E /* localDelicaciesData.swift */; };
 		A1F1E83D2B732CCB0040621E /* RestaurantRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E83C2B732CCB0040621E /* RestaurantRecommendation.swift */; };
-		A1F1E8422B732CDB0040621E /* ReviewSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E83E2B732CDA0040621E /* ReviewSubView.swift */; };
-		A1F1E8432B732CDB0040621E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E83F2B732CDA0040621E /* MapView.swift */; };
-		A1F1E8442B732CDB0040621E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E8402B732CDB0040621E /* AboutView.swift */; };
-		A1F1E8452B732CDB0040621E /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E8412B732CDB0040621E /* ReviewView.swift */; };
-		A1F1E8542B732D2F0040621E /* MyReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E8462B732D2F0040621E /* MyReviews.swift */; };
-		A1F1E8562B732D2F0040621E /* MyFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E8482B732D2F0040621E /* MyFriends.swift */; };
-		A1F1E8572B732D2F0040621E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E8492B732D2F0040621E /* ProfileView.swift */; };
 		A1F1E8582B732D2F0040621E /* Profile in Resources */ = {isa = PBXBuildFile; fileRef = A1F1E84A2B732D2F0040621E /* Profile */; };
-		A1F1E85B2B732D2F0040621E /* signup_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E84D2B732D2F0040621E /* signup_page.swift */; };
-		A1F1E85C2B732D2F0040621E /* PlacesVisited.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E84E2B732D2F0040621E /* PlacesVisited.swift */; };
-		A1F1E85D2B732D2F0040621E /* PlannedTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1E84F2B732D2F0040621E /* PlannedTrips.swift */; };
 		A1F1E85F2B732D2F0040621E /* Itinerary in Resources */ = {isa = PBXBuildFile; fileRef = A1F1E8512B732D2F0040621E /* Itinerary */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +72,16 @@
 		A18F2EE02B73BF730008999F /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
 		A18F2EE22B73BFA20008999F /*  ItineraryView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ItineraryView2.swift"; sourceTree = "<group>"; };
 		A18F2EE62B73C0080008999F /* login_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_page.swift; sourceTree = "<group>"; };
+		A18F2EE82B73C04E0008999F /*  MyFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MyFriends.swift"; sourceTree = "<group>"; };
+		A18F2EEA2B73C0740008999F /*  MyReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MyReviews.swift"; sourceTree = "<group>"; };
+		A18F2EEC2B73C0910008999F /* PlacesVisited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVisited.swift; sourceTree = "<group>"; };
+		A18F2EEE2B73C0B20008999F /* PlannedTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedTrips.swift; sourceTree = "<group>"; };
+		A18F2EF02B73C0D30008999F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A18F2EF22B73C0F30008999F /* signup_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup_page.swift; sourceTree = "<group>"; };
+		A18F2EF42B73C1150008999F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		A18F2EF62B73C13B0008999F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A18F2EF82B73C1520008999F /* ReviewSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSubView.swift; sourceTree = "<group>"; };
+		A18F2EFA2B73C17C0008999F /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		A1935DE52B71091700554D53 /* MyImagesDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyImagesDataModel.xcdatamodel; sourceTree = "<group>"; };
 		A1935DE72B71096400554D53 /* MyImagesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagesContainer.swift; sourceTree = "<group>"; };
 		A1935DE92B710A1400554D53 /* MyImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyImage+Extension.swift"; sourceTree = "<group>"; };
@@ -89,17 +99,7 @@
 		A1F1E8322B732C880040621E /* RestaurantData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantData.swift; path = ../../LocalEatz/LocalEatz/Model/RestaurantData.swift; sourceTree = "<group>"; };
 		A1F1E8332B732C880040621E /* localDelicaciesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = localDelicaciesData.swift; path = ../../LocalEatz/LocalEatz/Model/localDelicaciesData.swift; sourceTree = "<group>"; };
 		A1F1E83C2B732CCB0040621E /* RestaurantRecommendation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestaurantRecommendation.swift; path = ../../LocalEatz/LocalEatz/RestaurantRecommendation.swift; sourceTree = "<group>"; };
-		A1F1E83E2B732CDA0040621E /* ReviewSubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewSubView.swift; path = ../../LocalEatz/LocalEatz/ReviewSubView.swift; sourceTree = "<group>"; };
-		A1F1E83F2B732CDA0040621E /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../../LocalEatz/LocalEatz/MapView.swift; sourceTree = "<group>"; };
-		A1F1E8402B732CDB0040621E /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutView.swift; path = ../../LocalEatz/LocalEatz/AboutView.swift; sourceTree = "<group>"; };
-		A1F1E8412B732CDB0040621E /* ReviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewView.swift; path = ../../LocalEatz/LocalEatz/ReviewView.swift; sourceTree = "<group>"; };
-		A1F1E8462B732D2F0040621E /* MyReviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyReviews.swift; path = ../../LocalEatz/LocalEatz/Profile/MyReviews.swift; sourceTree = "<group>"; };
-		A1F1E8482B732D2F0040621E /* MyFriends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyFriends.swift; path = ../../LocalEatz/LocalEatz/Profile/MyFriends.swift; sourceTree = "<group>"; };
-		A1F1E8492B732D2F0040621E /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = ../../LocalEatz/LocalEatz/Profile/ProfileView.swift; sourceTree = "<group>"; };
 		A1F1E84A2B732D2F0040621E /* Profile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Profile; path = ../../LocalEatz/LocalEatz/Profile; sourceTree = "<group>"; };
-		A1F1E84D2B732D2F0040621E /* signup_page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = signup_page.swift; path = ../../LocalEatz/LocalEatz/signup_page.swift; sourceTree = "<group>"; };
-		A1F1E84E2B732D2F0040621E /* PlacesVisited.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesVisited.swift; path = ../../LocalEatz/LocalEatz/Profile/PlacesVisited.swift; sourceTree = "<group>"; };
-		A1F1E84F2B732D2F0040621E /* PlannedTrips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlannedTrips.swift; path = ../../LocalEatz/LocalEatz/Itinerary/PlannedTrips.swift; sourceTree = "<group>"; };
 		A1F1E8512B732D2F0040621E /* Itinerary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Itinerary; path = ../../LocalEatz/LocalEatz/Itinerary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,17 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				A1F1E8512B732D2F0040621E /* Itinerary */,
-				A1F1E8482B732D2F0040621E /* MyFriends.swift */,
-				A1F1E8462B732D2F0040621E /* MyReviews.swift */,
-				A1F1E84E2B732D2F0040621E /* PlacesVisited.swift */,
-				A1F1E84F2B732D2F0040621E /* PlannedTrips.swift */,
 				A1F1E84A2B732D2F0040621E /* Profile */,
-				A1F1E8492B732D2F0040621E /* ProfileView.swift */,
-				A1F1E84D2B732D2F0040621E /* signup_page.swift */,
-				A1F1E8402B732CDB0040621E /* AboutView.swift */,
-				A1F1E83F2B732CDA0040621E /* MapView.swift */,
-				A1F1E83E2B732CDA0040621E /* ReviewSubView.swift */,
-				A1F1E8412B732CDB0040621E /* ReviewView.swift */,
 				A1F1E83C2B732CCB0040621E /* RestaurantRecommendation.swift */,
 				A1F1E82E2B732C880040621E /* IntroductionData.swift */,
 				A1F1E8332B732C880040621E /* localDelicaciesData.swift */,
@@ -174,6 +164,16 @@
 				A18F2EE02B73BF730008999F /* ItineraryView.swift */,
 				A18F2EE22B73BFA20008999F /*  ItineraryView2.swift */,
 				A18F2EE62B73C0080008999F /* login_page.swift */,
+				A18F2EE82B73C04E0008999F /*  MyFriends.swift */,
+				A18F2EEA2B73C0740008999F /*  MyReviews.swift */,
+				A18F2EEC2B73C0910008999F /* PlacesVisited.swift */,
+				A18F2EEE2B73C0B20008999F /* PlannedTrips.swift */,
+				A18F2EF02B73C0D30008999F /* ProfileView.swift */,
+				A18F2EF22B73C0F30008999F /* signup_page.swift */,
+				A18F2EF42B73C1150008999F /* AboutView.swift */,
+				A18F2EF62B73C13B0008999F /* MapView.swift */,
+				A18F2EF82B73C1520008999F /* ReviewSubView.swift */,
+				A18F2EFA2B73C17C0008999F /* ReviewView.swift */,
 			);
 			path = MyImages;
 			sourceTree = "<group>";
@@ -281,22 +281,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F1E83A2B732C880040621E /* RestaurantData.swift in Sources */,
+				A18F2EF12B73C0D30008999F /* ProfileView.swift in Sources */,
 				A18F2EDD2B73BE430008999F /* AddRestaurant.swift in Sources */,
 				A1935DF12B71120C00554D53 /* ImageFormView.swift in Sources */,
+				A18F2EF72B73C13B0008999F /* MapView.swift in Sources */,
+				A18F2EF52B73C1150008999F /* AboutView.swift in Sources */,
+				A18F2EED2B73C0910008999F /* PlacesVisited.swift in Sources */,
 				A16BBA0F2B73A8D3005A4F95 /* FirstScreen.swift in Sources */,
 				A1F1E83D2B732CCB0040621E /* RestaurantRecommendation.swift in Sources */,
+				A18F2EE92B73C04E0008999F /*  MyFriends.swift in Sources */,
 				A1F1E8352B732C880040621E /* upcomingTripsData.swift in Sources */,
-				A1F1E85D2B732D2F0040621E /* PlannedTrips.swift in Sources */,
-				A1F1E8452B732CDB0040621E /* ReviewView.swift in Sources */,
 				A14DE6682B7263150098C0BF /* AddData.swift in Sources */,
 				A18F2ED92B73BDD40008999F /* locationManager.swift in Sources */,
 				A18F2EE32B73BFA20008999F /*  ItineraryView2.swift in Sources */,
+				A18F2EF32B73C0F30008999F /* signup_page.swift in Sources */,
 				A1935DF52B71181B00554D53 /* FileManager+Extension.swift in Sources */,
+				A18F2EEF2B73C0B20008999F /* PlannedTrips.swift in Sources */,
 				A18AEE202B729DB500B7B632 /* AboutRestaurant.swift in Sources */,
 				A1935DEA2B710A1400554D53 /* MyImage+Extension.swift in Sources */,
-				A1F1E8572B732D2F0040621E /* ProfileView.swift in Sources */,
-				A1F1E8432B732CDB0040621E /* MapView.swift in Sources */,
 				A18F2ED72B73BD6C0008999F /* HomeView.swift in Sources */,
+				A18F2EF92B73C1520008999F /* ReviewSubView.swift in Sources */,
 				A14DE66A2B7264040098C0BF /* ShowData.swift in Sources */,
 				A18F2EE72B73C0080008999F /* login_page.swift in Sources */,
 				A1380D812B71088E0069B6A5 /* ContentView.swift in Sources */,
@@ -304,20 +308,16 @@
 				A1935DF32B7116BC00554D53 /* FormType.swift in Sources */,
 				A18F2EDB2B73BE1A0008999F /* AddFoodie.swift in Sources */,
 				A18F2EDF2B73BEF30008999F /* EditProfile.swift in Sources */,
-				A1F1E85C2B732D2F0040621E /* PlacesVisited.swift in Sources */,
 				A1F1E8382B732C880040621E /* localfoodPlaces.swift in Sources */,
 				A1935DEC2B710BF500554D53 /* ImagePicker.swift in Sources */,
-				A1F1E8442B732CDB0040621E /* AboutView.swift in Sources */,
-				A1F1E8562B732D2F0040621E /* MyFriends.swift in Sources */,
 				A1935DEF2B71103E00554D53 /* FormViewModel.swift in Sources */,
+				A18F2EFB2B73C17C0008999F /* ReviewView.swift in Sources */,
 				A1F1E83B2B732C880040621E /* localDelicaciesData.swift in Sources */,
 				A1F1E8362B732C880040621E /* IntroductionData.swift in Sources */,
 				A18F2EE12B73BF730008999F /* ItineraryView.swift in Sources */,
-				A1F1E8542B732D2F0040621E /* MyReviews.swift in Sources */,
+				A18F2EEB2B73C0740008999F /*  MyReviews.swift in Sources */,
 				A1935DE62B71091700554D53 /* MyImagesDataModel.xcdatamodeld in Sources */,
-				A1F1E8422B732CDB0040621E /* ReviewSubView.swift in Sources */,
 				A1380D7F2B71088E0069B6A5 /* MyImagesApp.swift in Sources */,
-				A1F1E85B2B732D2F0040621E /* signup_page.swift in Sources */,
 				A1F1E8372B732C880040621E /* upcomingTrips.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
