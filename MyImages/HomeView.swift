@@ -46,8 +46,6 @@ struct HomeView: View {
                 
                 .padding(.bottom)
                 ScrollView{
-                    
-                    
                     HStack{
                         Image("chdg")
                             .padding()
