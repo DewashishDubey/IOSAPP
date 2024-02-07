@@ -5,7 +5,7 @@
 //  Created by Dewashish Dubey on 07/02/24.
 //
 
-import Foundation
+/*import Foundation
 import SwiftUI
 
 struct RestaurantRecommendation: View {
@@ -167,4 +167,4 @@ struct RestaurantRecommendation: View {
 
 #Preview {
     RestaurantRecommendation()
-}
+}*/

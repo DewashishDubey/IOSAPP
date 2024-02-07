@@ -17,7 +17,7 @@ struct HomeView: View {
     let columns = [GridItem(.adaptive(minimum: 100))]
     
     
-  
+    var name : String //to accept restaurant name from showData
     
     
     
@@ -184,7 +184,7 @@ struct HomeView: View {
                                                                             .frame(width:200,height: 100)
                                                                     
                                                                     
-                                                                    NavigationLink(myImage.nameView, destination: AboutView())
+                                                                    NavigationLink(myImage.nameView, destination: AboutView(name : myImage.nameView))
                                                                         .font(.system(size: 18, weight: .medium, design: .rounded))
                                                                         .foregroundColor(.black)
                                                                         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment: .leading)
@@ -335,5 +335,5 @@ struct HomeView: View {
 }
 
 #Preview {
-    HomeView()
+    HomeView(name: "")
 }
