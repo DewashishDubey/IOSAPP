@@ -54,6 +54,8 @@
 		A18F2F282B73C4570008999F /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2F272B73C4570008999F /* RestaurantData.swift */; };
 		A18F2F2A2B73C4800008999F /* localDelicaciesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2F292B73C4800008999F /* localDelicaciesData.swift */; };
 		A18F2F2C2B73C4950008999F /* upcomingTripsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2F2B2B73C4950008999F /* upcomingTripsData.swift */; };
+		A18F2F302B73C4DE0008999F /* localfoodPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2F2F2B73C4DE0008999F /* localfoodPlaces.swift */; };
+		A18F2F322B73C4F30008999F /* upcomingTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2F312B73C4F30008999F /* upcomingTrips.swift */; };
 		A1935DE62B71091700554D53 /* MyImagesDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1935DE42B71091700554D53 /* MyImagesDataModel.xcdatamodeld */; };
 		A1935DE82B71096400554D53 /* MyImagesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DE72B71096400554D53 /* MyImagesContainer.swift */; };
 		A1935DEA2B710A1400554D53 /* MyImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DE92B710A1400554D53 /* MyImage+Extension.swift */; };
@@ -62,7 +64,6 @@
 		A1935DF12B71120C00554D53 /* ImageFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DF02B71120C00554D53 /* ImageFormView.swift */; };
 		A1935DF32B7116BC00554D53 /* FormType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DF22B7116BC00554D53 /* FormType.swift */; };
 		A1935DF52B71181B00554D53 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1935DF42B71181B00554D53 /* FileManager+Extension.swift */; };
-		A1F1E8342B732C880040621E /* viewAll in Resources */ = {isa = PBXBuildFile; fileRef = A1F1E82C2B732C880040621E /* viewAll */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +115,8 @@
 		A18F2F272B73C4570008999F /* RestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantData.swift; sourceTree = "<group>"; };
 		A18F2F292B73C4800008999F /* localDelicaciesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localDelicaciesData.swift; sourceTree = "<group>"; };
 		A18F2F2B2B73C4950008999F /* upcomingTripsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upcomingTripsData.swift; sourceTree = "<group>"; };
+		A18F2F2F2B73C4DE0008999F /* localfoodPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localfoodPlaces.swift; sourceTree = "<group>"; };
+		A18F2F312B73C4F30008999F /* upcomingTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upcomingTrips.swift; sourceTree = "<group>"; };
 		A1935DE52B71091700554D53 /* MyImagesDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyImagesDataModel.xcdatamodel; sourceTree = "<group>"; };
 		A1935DE72B71096400554D53 /* MyImagesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagesContainer.swift; sourceTree = "<group>"; };
 		A1935DE92B710A1400554D53 /* MyImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyImage+Extension.swift"; sourceTree = "<group>"; };
@@ -122,7 +125,6 @@
 		A1935DF02B71120C00554D53 /* ImageFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFormView.swift; sourceTree = "<group>"; };
 		A1935DF22B7116BC00554D53 /* FormType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormType.swift; sourceTree = "<group>"; };
 		A1935DF42B71181B00554D53 /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
-		A1F1E82C2B732C880040621E /* viewAll */ = {isa = PBXFileReference; lastKnownFileType = folder; name = viewAll; path = ../../LocalEatz/LocalEatz/viewAll; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,10 +157,10 @@
 		A1380D7D2B71088E0069B6A5 /* MyImages */ = {
 			isa = PBXGroup;
 			children = (
+				A18F2F2D2B73C4C70008999F /* viewAll */,
 				A18F2F222B73C4200008999F /* Model */,
 				A18F2F132B73C33F0008999F /* Profile */,
 				A18F2F0C2B73C29F0008999F /* Itinerary */,
-				A1F1E82C2B732C880040621E /* viewAll */,
 				A1380D7E2B71088E0069B6A5 /* MyImagesApp.swift */,
 				A1380D802B71088E0069B6A5 /* ContentView.swift */,
 				A1935DEB2B710BF500554D53 /* ImagePicker.swift */,
@@ -253,6 +255,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		A18F2F2D2B73C4C70008999F /* viewAll */ = {
+			isa = PBXGroup;
+			children = (
+				A18F2F2F2B73C4DE0008999F /* localfoodPlaces.swift */,
+				A18F2F312B73C4F30008999F /* upcomingTrips.swift */,
+			);
+			path = viewAll;
+			sourceTree = "<group>";
+		};
 		A1935DED2B71102A00554D53 /* Form */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,7 +332,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F1E8342B732C880040621E /* viewAll in Resources */,
 				A1380D862B71088F0069B6A5 /* Preview Assets.xcassets in Resources */,
 				A1380D832B71088F0069B6A5 /* Assets.xcassets in Resources */,
 			);
@@ -363,6 +373,7 @@
 				A18AEE202B729DB500B7B632 /* AboutRestaurant.swift in Sources */,
 				A18F2F242B73C42D0008999F /* IntroductionData.swift in Sources */,
 				A1935DEA2B710A1400554D53 /* MyImage+Extension.swift in Sources */,
+				A18F2F302B73C4DE0008999F /* localfoodPlaces.swift in Sources */,
 				A18F2F212B73C3E20008999F /* ProfileView.swift in Sources */,
 				A18F2ED72B73BD6C0008999F /* HomeView.swift in Sources */,
 				A18F2EF92B73C1520008999F /* ReviewSubView.swift in Sources */,
@@ -385,6 +396,7 @@
 				A18F2EFD2B73C1B00008999F /* RestaurantRecommendation.swift in Sources */,
 				A18F2F2C2B73C4950008999F /* upcomingTripsData.swift in Sources */,
 				A1935DE62B71091700554D53 /* MyImagesDataModel.xcdatamodeld in Sources */,
+				A18F2F322B73C4F30008999F /* upcomingTrips.swift in Sources */,
 				A1380D7F2B71088E0069B6A5 /* MyImagesApp.swift in Sources */,
 				A18F2F052B73C2300008999F /* localfoodPlaces.swift in Sources */,
 			);
