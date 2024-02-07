@@ -1,23 +1,14 @@
 //
 //  ContentView.swift
-//  MyImages
+//  MapView
 //
-//  Created by Dewashish Dubey on 05/02/24.
+//  Created by Rupaj Sen on 16/12/23.
 //
 
 import SwiftUI
-import PhotosUI
 
-struct ContentView: View {
-    
-    
-    
-    @FetchRequest(sortDescriptors: [SortDescriptor(\.name)])
-    private var MyImages : FetchedResults<MyImage>
-    @StateObject private var imagePicker = ImagePicker()
-    
-    @State private var formType: FormType?
-    let columns = [GridItem(.adaptive(minimum: 100))]
+struct TabBarView: View {
+    @EnvironmentObject var viewModel: AuthViewModel
     @State private var selectedTab = "One"
     var body: some View {
        // NavigationView{
@@ -28,7 +19,7 @@ struct ContentView: View {
             NavigationView {
                 VStack
                 {
-                    HomeView(name: "")
+                    HomeView()
                 }
                 
             }
@@ -41,8 +32,7 @@ struct ContentView: View {
             NavigationView {
                 VStack
                 {
-                    //RestaurantRecommendation()
-                    ShowData()
+                    RestaurantRecommendation()
                 }
                 
             }
@@ -78,7 +68,13 @@ struct ContentView: View {
             NavigationView {
                 VStack
                 {
-                    ProfileView()
+                    Group{
+                        if viewModel.userSession != nil{
+                            AccountView()
+                        } else {
+                            LoginView()
+                        }
+                    }
                 }
                 
             }
@@ -113,22 +109,10 @@ struct ContentView: View {
             }
        // }
     }
-    /*var body: some View
-    {
-        NavigationStack
-        {
-            NavigationLink {
-                AddData()
-            } label: {
-                Text("View All")
-                    .foregroundColor(.orange)
-                    .font(.system(size: 15))
-                    //.padding(.leading,-70)
-            }
-        }
-    }*/
 }
 
+
+
 #Preview {
-    ContentView()
+    TabBarView()
 }

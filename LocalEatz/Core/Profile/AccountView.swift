@@ -118,7 +118,14 @@ struct AccountView: View {
                     .padding(-10)
                     
                     // new copied start
-                    
+                    NavigationLink {
+                        AddData()
+                    } label: {
+                        Text("View All")
+                            .foregroundColor(.orange)
+                            .font(.system(size: 15))
+                            //.padding(.leading,-70)
+                    }
                    /* Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                         PhotosPicker("New Image",
                                      selection: $imagePicker.imageSelection,

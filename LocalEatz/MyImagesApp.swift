@@ -6,21 +6,25 @@
 //
 
 import SwiftUI
-
+import Firebase
 @main
 struct MyImagesApp: App {
     //@StateObject var LocationManager = locationManager()
     
-//    @StateObject var viewModel = AuthViewModel()
-//    @StateObject var LocationManager = locationManager()
-//    
-//    @FetchRequest(sortDescriptors: [SortDescriptor(\.name)])
-//    private var MyImages : FetchedResults<MyImage>
-//    @StateObject private var imagePicker = ImagePicker()
-//    
-//    @State private var formType: FormType?
-//    let columns = [GridItem(.adaptive(minimum: 100))]
-//    @Environment(\.managedObjectContext) var managedObjectContext
+    @StateObject var viewModel = AuthViewModel()
+    @StateObject var LocationManager = locationManager()
+    
+    @FetchRequest(sortDescriptors: [SortDescriptor(\.name)])
+    private var MyImages : FetchedResults<MyImage>
+    @StateObject private var imagePicker = ImagePicker()
+    
+    @State private var formType: FormType?
+    let columns = [GridItem(.adaptive(minimum: 100))]
+    
+    
+    init(){
+        FirebaseApp.configure()
+    }
     
     var body: some Scene {
         WindowGroup {
